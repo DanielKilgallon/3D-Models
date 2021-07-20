@@ -10,7 +10,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, x-model, ins, kbd, q, s, samp,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -2594,7 +2594,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image x-model {
+		.image img {
 			display: block;
 		}
 
@@ -2602,7 +2602,7 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left x-model, .image.right x-model {
+			.image.left img, .image.right img {
 				width: 100%;
 			}
 
@@ -2628,7 +2628,7 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
-			.image.fit x-model {
+			.image.fit img {
 				width: 100%;
 			}
 
@@ -2642,7 +2642,7 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
-			.image.main x-model {
+			.image.main img {
 				width: 100%;
 			}
 
@@ -2662,14 +2662,14 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		a.image x-model {
+		a.image img {
 			-moz-transition: -moz-transform 0.2s ease-out;
 			-webkit-transition: -webkit-transform 0.2s ease-out;
 			-ms-transition: -ms-transform 0.2s ease-out;
 			transition: transform 0.2s ease-out;
 		}
 
-		a.image:hover x-model {
+		a.image:hover img {
 			-moz-transform: scale(1.05);
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
@@ -3223,7 +3223,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		position: relative;
-		/* z-index: 1; */
+		z-index: 1;
 		overflow: hidden;
 	}
 
